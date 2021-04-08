@@ -26,7 +26,7 @@ mongoose.connect(connection_url,{
 
 //API endpoint
 app.get('/',(req,res)=>{
-          res.status(200).send('lets go bitch')
+          res.status(200).send('lets go')
 })
 
 app.post('/tinder/cards',(req,res)=>{
